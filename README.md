@@ -55,7 +55,7 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ---
 
-## 🇧🇷 Brazilian E-Commerce SQL Business Analysis
+## Brazilian E-Commerce SQL Business Analysis
 
 - Analyzed 99,000+ real-world e-commerce orders
 - Revenue Analysis
