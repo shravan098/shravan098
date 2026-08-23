@@ -16,7 +16,7 @@ Currently, I'm learning Python after completing SQL and Database Management.
 - ✅ SQL & MySQL
 - 🔄 Python
 - ⏳ Pandas & NumPy
-- ⏳ Power BI
+- ✅ Power BI
 - ⏳ Machine Learning
 - ⏳ Artificial Intelligence
 
@@ -35,29 +35,52 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ### Data Analytics
 - Microsoft Excel
+- Power BI
+- Pandas
+- NumPy
+
+### Machine Learning
+- Scikit-learn
+- Linear Regression
+- Random Forest Regression
 
 ### Tools
 - Git
 - GitHub
 - MySQL Workbench
+- Jupyter Notebook
 
 ---
 
 # 📂 Featured Projects
 
-## 📊 Excel Sales Dashboard
+## 🤖 Saturn Real Estate Price Predictor — Machine Learning
 
-- Built 3 interactive dashboards
-- Analyzed 131,000+ customer records
-- Created KPI reports and business insights
+- Built a Machine Learning model to predict real estate prices
+- Analyzed **414 real estate records** with 8 features
+- Performed data inspection and exploratory data analysis
+- Implemented Linear Regression as a baseline model
+- Built a Random Forest Regression model
+- Compared models using RMSE and R² Score
+- Performed feature importance analysis
+- Identified **distance to the nearest MRT station** as the most important predictive feature
 
-**Skills:** Excel, Pivot Tables, Dashboards, Data Cleaning
+### 📊 Model Performance
+
+| Model | RMSE | R² Score |
+|---|---:|---:|
+| Linear Regression | 7.31 | 0.681 |
+| **Random Forest Regression** | **5.69** | **0.807** |
+
+**Skills:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Machine Learning, Regression, Data Analysis
 
 ---
 
-## Brazilian E-Commerce SQL Business Analysis
+# 🗄️ SQL Projects
 
-- Analyzed 99,000+ real-world e-commerce orders
+## 🛒 Brazilian E-Commerce SQL Business Analysis
+
+- Analyzed **99,000+ real-world e-commerce orders**
 - Revenue Analysis
 - Customer Churn Analysis
 - Delivery Performance Analysis
@@ -66,9 +89,9 @@ Currently, I'm learning Python after completing SQL and Database Management.
 - Product Performance Analysis
 - Regional Sales Analysis
 - Executive KPI Dashboard
-- Solved 100+ SQL business queries
+- Solved **100+ SQL business queries**
 
-**SQL Concepts Used**
+### SQL Concepts Used
 
 - Joins
 - Aggregate Functions
@@ -90,7 +113,7 @@ Currently, I'm learning Python after completing SQL and Database Management.
 - Customer Spending Analysis
 - Restaurant Performance Analysis
 
-**SQL Concepts Used**
+### SQL Concepts Used
 
 - Joins
 - Aggregate Functions
@@ -100,12 +123,28 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ---
 
+# 📊 Excel & Power BI Projects
+
+## 📊 Excel Sales Dashboard
+
+- Built **3 interactive dashboards**
+- Analyzed **131,000+ customer records**
+- Created KPI reports and business insights
+
+**Skills:** Excel, Pivot Tables, Dashboards, Data Cleaning
+
+---
+
+# 📱 Java Project
+
 ## 🍎 FoodFit Android App
 
-- Java
-- Firebase
-- BMR Calculator
-- Goal-Based Nutrition Planning
+- Developed an Android application using **Java**
+- Integrated **Firebase**
+- Built a **BMR Calculator**
+- Implemented **Goal-Based Nutrition Planning**
+
+**Skills:** Java, Firebase, Android Development
 
 ---
 
@@ -119,8 +158,20 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ### Data Analysis
 - Excel
+- Power BI
+- Pandas
+- NumPy
+- Data Cleaning
+- Exploratory Data Analysis
 - Business Reporting
 - Dashboard Development
+
+### Machine Learning
+- Regression
+- Linear Regression
+- Random Forest
+- Model Evaluation
+- Feature Importance
 
 ### Programming
 - Java
@@ -137,7 +188,7 @@ Currently, I'm learning Python after completing SQL and Database Management.
 - Build End-to-End Data Analytics Projects
 - Master Python
 - Learn Pandas & NumPy
-- Learn Power BI
+- Build Advanced Power BI Dashboards
 - Build Machine Learning Projects
 - Develop AI Applications
 - Contribute to Open Source
@@ -154,4 +205,6 @@ https://github.com/shravan098
 
 ---
 
-⭐ Thanks for visiting my profile! I'm documenting my journey from Data Analytics to AI Engineering by building real-world projects and sharing my learning.
+⭐ Thanks for visiting my profile!
+
+I'm documenting my journey from Data Analytics to AI Engineering by building real-world projects and sharing my learning.
