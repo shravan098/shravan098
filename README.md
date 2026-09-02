@@ -2,53 +2,71 @@
 
 ## 🎓 About Me
 
-I'm a Computer Science student passionate about Artificial Intelligence, Machine Learning, and Data Analytics.
+I'm a Computer Science student passionate about **Artificial Intelligence, Machine Learning, and Data Analytics**.
 
-I enjoy solving real-world business problems using data and building practical projects.
+I enjoy solving real-world problems using data, building practical machine learning solutions, and understanding how AI systems work under the hood.
 
-Currently, I'm learning Python after completing SQL and Database Management.
+Currently, I'm strengthening my **Python and AI/ML skills** after building projects in SQL, Excel, Power BI, Machine Learning, and Generative AI.
 
 ---
 
 ## 🚀 Current Learning Roadmap
 
-- ✅ Microsoft Excel
-- ✅ SQL & MySQL
-- 🔄 Python
-- ⏳ Pandas & NumPy
-- ✅ Power BI
-- ⏳ Machine Learning
-- ⏳ Artificial Intelligence
+* ✅ Microsoft Excel
+* ✅ SQL & MySQL
+* 🔄 Python
+* ⏳ Pandas & NumPy
+* ✅ Power BI
+* ✅ Machine Learning
+* 🔄 Generative AI & RAG
+* ⏳ Artificial Intelligence
+* ⏳ AI Agents & Automation
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Languages
-- SQL
-- Java
-- Python (Learning)
+
+* SQL
+* Java
+* Python
 
 ### Databases
-- MySQL
-- Firebase
+
+* MySQL
+* Firebase
 
 ### Data Analytics
-- Microsoft Excel
-- Power BI
-- Pandas
-- NumPy
+
+* Microsoft Excel
+* Power BI
+* Pandas
+* NumPy
 
 ### Machine Learning
-- Scikit-learn
-- Linear Regression
-- Random Forest Regression
+
+* Scikit-learn
+* Linear Regression
+* Random Forest Regression
+* Model Evaluation
+* Feature Importance
+
+### Generative AI
+
+* Google Gemini API
+* Retrieval-Augmented Generation (RAG)
+* Prompt Engineering
+* Context Retrieval
+* API Integration
 
 ### Tools
-- Git
-- GitHub
-- MySQL Workbench
-- Jupyter Notebook
+
+* Git
+* GitHub
+* MySQL Workbench
+* Jupyter Notebook
+* Power BI
 
 ---
 
@@ -56,23 +74,163 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ## 🤖 Saturn Real Estate Price Predictor — Machine Learning
 
-- Built a Machine Learning model to predict real estate prices
-- Analyzed **414 real estate records** with 8 features
-- Performed data inspection and exploratory data analysis
-- Implemented Linear Regression as a baseline model
-- Built a Random Forest Regression model
-- Compared models using RMSE and R² Score
-- Performed feature importance analysis
-- Identified **distance to the nearest MRT station** as the most important predictive feature
+A Machine Learning project focused on predicting real estate prices using property-related features.
+
+### 🔍 Project Highlights
+
+* Analyzed **414 real estate records** with 8 features
+* Performed data inspection and exploratory data analysis
+* Cleaned and prepared the dataset for modelling
+* Implemented **Linear Regression** as a baseline model
+* Built a **Random Forest Regression** model
+* Compared models using **RMSE and R² Score**
+* Performed feature importance analysis
+* Identified **distance to the nearest MRT station** as the most important predictive feature
 
 ### 📊 Model Performance
 
-| Model | RMSE | R² Score |
-|---|---:|---:|
-| Linear Regression | 7.31 | 0.681 |
+| Model                        |     RMSE |  R² Score |
+| ---------------------------- | -------: | --------: |
+| Linear Regression            |     7.31 |     0.681 |
 | **Random Forest Regression** | **5.69** | **0.807** |
 
-**Skills:** Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Machine Learning, Regression, Data Analysis
+### 🧰 Technologies
+
+**Python • Pandas • NumPy • Matplotlib • Seaborn • Scikit-learn • Machine Learning • Regression • Data Analysis**
+
+---
+
+## 🧠 Mini RAG — Retrieval-Augmented Generation
+
+A lightweight **Retrieval-Augmented Generation (RAG)** system built from scratch in Python using Google's Gemini API, without using LangChain.
+
+The project was built to understand the core workflow of RAG systems — **retrieving relevant information first and then using an LLM to generate a grounded response.**
+
+### 🔍 How It Works
+
+```text
+User Question
+      ↓
+Knowledge Base
+      ↓
+Text Processing
+      ↓
+Relevant Paragraph Retrieval
+      ↓
+Retrieved Context + User Question
+      ↓
+Google Gemini API
+      ↓
+Grounded Answer
+```
+
+### 🚀 Project Features
+
+* Loads a custom knowledge base from a text file
+* Splits the knowledge base into paragraphs
+* Processes the user's question
+* Filters stop words to improve retrieval
+* Finds the most relevant paragraph based on keyword matching
+* Sends the retrieved context to Gemini
+* Generates an answer grounded in the retrieved information
+* Built using core Python logic without LangChain
+
+### 🧩 Concepts Used
+
+* Python File Handling
+* Functions
+* Lists & List Comprehensions
+* Text Processing
+* Stop-word Filtering
+* Information Retrieval
+* Context Retrieval
+* Prompt Construction
+* API Integration
+* Generative AI
+* Retrieval-Augmented Generation
+
+### 🛠️ Tech Stack
+
+**Python • Google Gemini API • Generative AI • RAG**
+
+### 💡 Example
+
+**Question:**
+
+> How fast is a cheetah?
+
+The system first retrieves the relevant **Cheetah** paragraph from the knowledge base and then provides that context to Gemini.
+
+The final response is therefore generated using the retrieved information rather than relying only on the model's general knowledge.
+
+### ▶️ How to Run
+
+```bash
+pip install google-generativeai
+```
+
+Set your Gemini API key as an environment variable:
+
+```bash
+GEMINI_API_KEY=your_api_key
+```
+
+Then run:
+
+```bash
+python rag.py
+```
+
+> 🔐 API keys should never be committed directly to GitHub.
+
+---
+
+## 🌍 Global AI & Data Jobs Analytics Dashboard — Power BI
+
+An interactive Power BI dashboard built to analyze global AI and Data job-market trends, salaries, hiring patterns, AI adoption, automation risk, and workforce insights.
+
+### 📊 Dataset
+
+* **90,000 job postings**
+* **12 countries**
+* **2020–2026**
+* **35 columns**
+* **8 job roles**
+* **8 AI specializations**
+* **10 industries**
+
+### 🔍 Dashboard Analysis
+
+* Global hiring trends
+* Salary analysis
+* Country-wise salary comparison
+* Job role analysis
+* Experience-level distribution
+* Remote vs Hybrid vs Onsite jobs
+* AI specialization
+* AI adoption
+* Automation risk
+* Job security
+* Career growth
+* Employee satisfaction
+* Industry-wise hiring patterns
+
+### 📈 Key Metrics
+
+| Metric                |   Value |
+| --------------------- | ------: |
+| Average Salary        | $96.55K |
+| Remote Jobs           |  33.34% |
+| Average AI Adoption   |   71.38 |
+| Career Growth         |   57.20 |
+| Job Security          |   75.56 |
+| Employee Satisfaction |   72.73 |
+
+### 🧰 Technologies
+
+**Power BI • Power Query • DAX • Data Cleaning • Data Analysis • Data Visualization • Dashboard Design**
+
+> **Dataset Disclaimer:** The dataset is used for analytical and visualization purposes. These results should not be interpreted as official global employment statistics unless the original data source and methodology are independently verified.
 
 ---
 
@@ -80,58 +238,74 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ## 🛒 Brazilian E-Commerce SQL Business Analysis
 
-- Analyzed **99,000+ real-world e-commerce orders**
-- Revenue Analysis
-- Customer Churn Analysis
-- Delivery Performance Analysis
-- Customer Satisfaction Analysis
-- Seller Performance Analysis
-- Product Performance Analysis
-- Regional Sales Analysis
-- Executive KPI Dashboard
-- Solved **100+ SQL business queries**
+A business analytics project using a large Brazilian e-commerce dataset to answer real-world business questions using SQL.
 
-### SQL Concepts Used
+### 📊 Project Highlights
 
-- Joins
-- Aggregate Functions
-- GROUP BY & HAVING
-- CASE WHEN
-- Date Functions
-- Subqueries
-- CTEs
-- Window Functions
+* Analyzed **99,000+ e-commerce orders**
+* Revenue Analysis
+* Customer Churn Analysis
+* Delivery Performance Analysis
+* Customer Satisfaction Analysis
+* Seller Performance Analysis
+* Product Performance Analysis
+* Regional Sales Analysis
+* Executive KPI Dashboard
+* Solved **100+ SQL business queries**
+
+### 🧠 SQL Concepts Used
+
+* Joins
+* Aggregate Functions
+* GROUP BY & HAVING
+* CASE WHEN
+* Date Functions
+* Subqueries
+* CTEs
+* Window Functions
 
 ---
 
 ## 🍔 Online Food Ordering System
 
-- Designed a relational database
-- Created normalized tables
-- Built SQL queries for business analysis
-- Revenue Analysis
-- Customer Spending Analysis
-- Restaurant Performance Analysis
+A relational database project designed for an online food ordering system.
 
-### SQL Concepts Used
+### 🔍 Project Highlights
 
-- Joins
-- Aggregate Functions
-- Subqueries
-- CTEs
-- Window Functions
+* Designed a relational database
+* Created normalized tables
+* Built SQL queries for business analysis
+* Revenue Analysis
+* Customer Spending Analysis
+* Restaurant Performance Analysis
+
+### 🧠 SQL Concepts Used
+
+* Joins
+* Aggregate Functions
+* Subqueries
+* CTEs
+* Window Functions
 
 ---
 
-# 📊 Excel & Power BI Projects
+# 📊 Excel Projects
 
 ## 📊 Excel Sales Dashboard
 
-- Built **3 interactive dashboards**
-- Analyzed **131,000+ customer records**
-- Created KPI reports and business insights
+Built interactive Excel dashboards to analyze customer and sales data.
 
-**Skills:** Excel, Pivot Tables, Dashboards, Data Cleaning
+### Project Highlights
+
+* Built **3 interactive dashboards**
+* Analyzed **131,000+ customer records**
+* Created KPI reports
+* Performed data cleaning
+* Generated business insights
+
+### 🧰 Skills
+
+**Microsoft Excel • Pivot Tables • Data Cleaning • KPI Reporting • Dashboard Development**
 
 ---
 
@@ -139,74 +313,104 @@ Currently, I'm learning Python after completing SQL and Database Management.
 
 ## 🍎 FoodFit Android App
 
-- Developed an Android application using **Java**
-- Integrated **Firebase**
-- Built a **BMR Calculator**
-- Implemented **Goal-Based Nutrition Planning**
+An Android application developed using Java and Firebase.
 
-**Skills:** Java, Firebase, Android Development
+### 🚀 Features
+
+* BMR Calculator
+* Goal-Based Nutrition Planning
+* Firebase integration
+* Android UI development
+
+### 🧰 Technologies
+
+**Java • Firebase • Android Development**
 
 ---
 
 # 📚 Skills
 
 ### SQL
-- Database Design
-- Business Analytics
-- KPI Reporting
-- Complex Joins
+
+* Database Design
+* Business Analytics
+* KPI Reporting
+* Complex Joins
+* CTEs
+* Window Functions
+* Subqueries
 
 ### Data Analysis
-- Excel
-- Power BI
-- Pandas
-- NumPy
-- Data Cleaning
-- Exploratory Data Analysis
-- Business Reporting
-- Dashboard Development
+
+* Excel
+* Power BI
+* Pandas
+* NumPy
+* Data Cleaning
+* Exploratory Data Analysis
+* Business Reporting
+* Dashboard Development
 
 ### Machine Learning
-- Regression
-- Linear Regression
-- Random Forest
-- Model Evaluation
-- Feature Importance
+
+* Regression
+* Linear Regression
+* Random Forest
+* Model Evaluation
+* RMSE
+* R² Score
+* Feature Importance
+
+### Generative AI
+
+* Google Gemini API
+* Retrieval-Augmented Generation
+* Information Retrieval
+* Prompt Construction
+* Context Retrieval
+* LLM API Integration
 
 ### Programming
-- Java
-- Python (Learning)
+
+* Python
+* Java
+* SQL
 
 ### Version Control
-- Git
-- GitHub
+
+* Git
+* GitHub
 
 ---
 
-## 🎯 2026 Goals
+# 🎯 2026 Goals
 
-- Build End-to-End Data Analytics Projects
-- Master Python
-- Learn Pandas & NumPy
-- Build Advanced Power BI Dashboards
-- Build Machine Learning Projects
-- Develop AI Applications
-- Contribute to Open Source
+* Build End-to-End Data Analytics Projects
+* Master Python
+* Learn Pandas & NumPy
+* Build Advanced Power BI Dashboards
+* Build Machine Learning Projects
+* Build RAG Applications
+* Learn Generative AI
+* Develop AI Applications
+* Learn AI Agents & Automation
+* Contribute to Open Source
 
 ---
 
-## 📫 Connect With Me
+# 📫 Connect With Me
 
-💼 LinkedIn:  
+💼 **LinkedIn:**
 https://linkedin.com/in/shravan-jadhav-ai
 
-💻 GitHub:  
+💻 **GitHub:**
 https://github.com/shravan098
 
-🗂️ Portfolio: 
+🗂️ **Portfolio:**
 https://thank-post-78020276.figma.site
+
 ---
 
 ⭐ Thanks for visiting my profile!
 
-I'm documenting my journey from Data Analytics to AI Engineering by building real-world projects and sharing my learning.
+I'm documenting my journey from **Data Analytics → Machine Learning → Generative AI → AI Engineering** by building practical projects and continuously learning new technologies.
